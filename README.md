@@ -1,2 +1,4 @@
 # Clone-website
-A practice clone website 
+A practice clone website of Netflix.
+Only home page and layout.
+
