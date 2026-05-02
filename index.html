@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Netflix UI Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: black;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      position: absolute;
+      width: 100%;
+    }
+
+    .logo {
+      color: red;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1601933470096-0e34634ffcde') no-repeat center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .row {
+      padding: 20px;
+    }
+
+    .row h2 {
+      margin-bottom: 10px;
+    }
+
+    .movies {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+    }
+
+    .movie {
+      min-width: 150px;
+      height: 200px;
+      background: gray;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">NETFLIX</div>
+</header>
+
+<section class="hero">
+  <h1>Unlimited Movies, TV Shows</h1>
+  <p>Watch anywhere. Cancel anytime.</p>
+  <button class="btn">Get Started</button>
+</section>
+
+<section class="row">
+  <h2>Popular</h2>
+  <div class="movies">
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+  </div>
+</section>
+
+<section class="row">
+  <h2>Trending</h2>
+  <div class="movies">
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+    <div class="movie" style="background-image:url('https://picsum.photos/200/300?random=1')"></div>
+  </div>
+</section>
+
+<footer>
+  <p>Netflix Clone - Practice Project
+    <br>
+    <a href="https://github.com/muhammad-abdullah-khan-598">
+      <button>My Github</button> </a></p>
+</footer>
+
+</body>
+</html>
